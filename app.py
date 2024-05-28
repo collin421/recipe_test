@@ -42,7 +42,7 @@ def login(username, password, sheet):
     return False  
 
 def main():
-    st.title("Login Page")
+    st.title("로그인 페이지")
 
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")
